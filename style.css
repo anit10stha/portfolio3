@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile{
+    height: 120px;
+    width: 120px;
+    background-image: url("./assets/men.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.left h2{
+    font-size: 2rem;
+    color: rgb(158, 5, 51);
+    margin-bottom: 5px;
+}
+
+.left h4{
+    font-size: 2.5vh;
+    font-weight: 300;
+}
+
+.left h4 span{
+    color: rgb(32, 139, 240);
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2vh;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.social a:hover{
+    color: rgb(32, 139, 240);
+}
+
+.social span{
+    color: rgb(32, 139, 240);
+    border-bottom: 1px solid rgb(32, 139, 240);
+    padding-bottom: 5px;
+}
+
+.footer{
+    margin-top: 3rem;
+    font-size: 2vh;
+    font-weight: 300;
+    color: rgb(81, 81, 82);
+    text-align: center;
+}
+
+.right{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+
+.right-content{
+    height: 100%;
+    width: 60%;
+    padding: 10rem 5rem;
+    /* background-color: aqua; */
+}
+
+.right h1{
+    font-size: 3rem;
+}
+
+.right p{
+    padding-top: 1rem;
+    line-height: 1.5rem;
+}
+
+.right button{
+    padding: 10px 20px;
+    background-color: rgb(158, 5, 51);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.image{
+    height: 100%;
+    width: 40%;
+    /* background-color: sandybrown; */
+}
+
+.image img{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
