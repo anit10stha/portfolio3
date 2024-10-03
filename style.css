@@ -67,6 +67,11 @@ html,body{
     cursor: pointer;
 }
 
+.social a{
+    text-decoration: none;
+    color: black;
+}
+
 .social a:hover{
     color: rgb(32, 139, 240);
 }
@@ -91,6 +96,18 @@ html,body{
     display: flex;
 }
 
+.cursor{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(32, 139, 240);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
 .right-content{
     height: 100%;
     width: 60%;
@@ -108,13 +125,23 @@ html,body{
 }
 
 .right button{
-    padding: 10px 20px;
+    padding: 15px 30px;
     background-color: rgb(158, 5, 51);
+    font-size: 1rem;
     color: white;
     border: none;
     border-radius: 5px;
     margin-top: 1rem;
     cursor: pointer;
+}
+
+.right button:hover{
+    background-color: #9e0533d2;
+}
+
+.right button a{
+    text-decoration: none;
+    color: white;
 }
 
 .image{
